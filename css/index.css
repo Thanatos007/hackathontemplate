@@ -1,8 +1,106 @@
-.classCSS {
-
+label { 
+    color: white;
+    display:block;
+    text-align:center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-#idCSS {
+body {
+    background-image: url("http://img3.wikia.nocookie.net/__cb20141025064748/steamtradingcards/images/1/16/Sid_Meiers_Civilization_Beyond_Earth_Background_Blue_Space.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
+.myClockContainer{
+    color:black;
+    text-align:center;
+    background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/red-wallpaper-1.jpg);
+    font-style:oblique;
+    font-size:250%;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-weight:bold;
+    margin:0 auto;
+    width: 400px;
+}
+
+.myTitlePage{
+    color:white;
+    text-align:center;
+    font-size:225%;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-weight:bold;
+    width: 1250px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.thePlutoClass{
+    text-align:center;
+}
+
+#mybutton{
+    color: rgb(550,0,10);
+    font-weight:bold;
+}
+
+.Input{
+    text-align:center;
+}
+
+.losspage{
+    text-align:center;
+    color:White;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size:225%;
+    
+    font-weight:bold;
+}
+
+.victorypage{
+    text-align:center;
+    color:blue;
+    font-style:oblique;
+    font-size:225%;
+    font-family:'Ubuntu';
+    font-weight:bold;
+    width: px;
+}
+    
+.progress{
+    position:relative;
+    width:500px;
+    margin:0 auto;
+}
+
+.pilot{
+    position:absolute;
+    transform: rotate(90deg);
+    top:50px;
+    left:100%;
+}
+
+.myVictoryPage{
+    color:blue;
+    text-align:justify;
+    font-style:oblique;
+    font-size:200%;
+    font-family:'Ubuntu';
+    font-weight:bold;
+    width:1250px;
+    margin:auto;
+    border: 1px solid red;
+    background-size:100%;
+}
+
+.victoryPic{
+    width:100%;
+}
+
+#mybutton{
+    margin-top:100;
+}
+
+.losspic{
+    width:70%;
 }
 
